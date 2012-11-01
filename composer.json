@@ -1,11 +1,27 @@
 {
     "name": "bushbaby/fontawesome",
     "description": "A simple module for ZF2 that installs and exposes the FontAwesome bootsrtap extention",
+    "license" : "MIT",
     "keywords": [
     ],
     "homepage": "https://github.com/basz/BsbFontAwesome",
 
+    "repositories" : [
+        {
+            "type": "package",
+            "package": {
+                "version": "master",
+                "name": "fortawesome/fontawesome",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
     "require": {
+        "fortawesome/fontawesome" : "dev-master"
     },
 
     "autoload" : {
