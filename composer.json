@@ -6,22 +6,7 @@
     ],
     "homepage": "https://github.com/basz/BsbFontAwesome",
 
-    "repositories" : [
-        {
-            "type": "package",
-            "package": {
-                "version": "master",
-                "name": "fortawesome/fontawesome",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                    "reference": "master"
-                }
-            }
-        }
-    ],
     "require": {
-        "fortawesome/fontawesome" : "dev-master"
     },
 
     "autoload" : {
