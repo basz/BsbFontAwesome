@@ -7,7 +7,7 @@
     "homepage": "https://github.com/basz/BsbFontAwesome",
     "require": {
         "rwoverdijk/assetmanager": "1.*",
-        "fortawesome/fontawesome" : "2.*"
+        "fortawesome/fontawesome" : "3.*"
     },
     "autoload" : {
         "psr-0": {
