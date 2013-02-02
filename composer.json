@@ -1,5 +1,5 @@
 {
-    "name": "bushbaby/fontawesome",
+    "name": "bushbaby/expose-fontawesome",
     "description": "BsbFontAwesome is a ZF2 module that helps exposing the awesome font awesome project",
     "license" : "MIT",
     "keywords": [
